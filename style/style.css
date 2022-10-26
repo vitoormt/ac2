@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* ------------------------------------------------------------- Estilos Gerais -----------------------------------------------------------------------------*/
+
+.nav-btn {
+    font-size: 18px;
+    font-family: Lobster;
+}
+
+.nav-link {
+    color: #F2F2F2;
+}
+
+.ativo {
+    color: #FFA20E;
+}
+
+.bg-btn {
+    background-color: #FFA20E;
+    border-radius: 5px;
+    padding: 8px 16px ;
+    border: 2px solid #E78F05;
+    margin-top: -2px;
+}
+
+.nav-header {
+    margin-left: 58%;
+}
+
+.bg-color {
+    background-color: #414141;
+}
+
+.nav-link:hover {
+    color: #FFA20E;
+}
+
+.nav-btn2:hover {
+    color: #414141;
+}
+
+.cor {
+    background-color: #FFA20E;
+    color: #000;
+}
+
+.logo-site {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos Footer */
+.flexFooter {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer {
+    background-color: #414141;
+    color: #F2F2F2;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.login{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#social {
+    margin-bottom: 25px;
+}
+
+/* ------------------------------------------------------------------------ PAG 1 -------------------------------------------------------------------------- */
+
+/* Section Slide */
+.tamanho-slide {
+    width: 100%;
+    height: 87vh;
+}
+
+/* Section Sobre */
+.bg-sobre {
+    background-color: #F2F2F2;
+}
+
+.section-sobre {
+    display: flex;
+}
+
+.conteudo-sobre {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.text-sobre {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.text-sobre span {
+    font-weight: 600;
+}
+
+.text-sobre i {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Lobster;
+}
+
+.img-fora {
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Section Ifood */
+.bg-ifood {
+    background: url(../img/bg-ifood.png); 
+}
+
+.logo-ifood {
+    margin: 60px;
+    width: 600px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Section Images */
+.section-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.images-section {
+    width: 22%;
+    height:200px;
+    padding-left: 40px;
+}
+
+/* ------------------------------------------------------------------------ PAG 2 -------------------------------------------------------------------------- */
+/* Section Image */
+.imagem-principal {
+    background-image: url(../img/img-introducao.jpg);
+    height: 40vh;
+}
+
+/* Section Texto */
+.section-texto {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+hr {
+    color: #414141;
+}
+
+.parte-texto {
+    margin-top: 40px;
+}
+
+.parte-texto p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.parte-texto h1 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.parte-texto span {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------------ PAG 3 -------------------------------------------------------------------------- */
+/* Section Cardápio */
+.section-cardapio {
+    width: 760px;
+    height: 400px;
+    margin: 104px auto;
+    background-color: #EABF49;
+    border: 2px solid #E78F05;
+    border-radius: 5px;
+}
+
+.conteudo-cardapio {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+
+.conteudo-cardapio h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.conteudo-cardapio a {
+    margin: 60px auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    background-color: #FFEFC2;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #414141;
+}
+
+/* ------------------------------------------------------------------------ PAG 4 -------------------------------------------------------------------------- */
+.section-pedidos {
+    width: 960px;
+    height: 400px;
+    margin: 104px auto;
+    background-color: #EABF49;
+    border: 2px solid #E78F05;
+    border-radius: 5px;
+}
+
+.container-pedidos {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.conteudo-telefones {
+    text-align: center;
+}
+
+.telefones {
+    height: 136px;
+    margin: 60px auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    background-color: #FFEFC2;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #414141;
+}
+
+.telefones span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.bi-telephone {
+    margin-right: 10px;
+}
+
+.conteudo-devices {
+    text-align: center;
+}
+
+.conteudo-devices img {
+    width: 136px;
+    height: 136px;
+    margin: 52px auto;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFEFC2;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #414141;
+}
+
+/* ------------------------------------------------------------------------ PAG 5 --------------------------------------------------------------------------*/
+.section-contato {
+    width: 1160px;
+    height: 719px;
+    margin: 104px auto;
+    background-color: #EABF49;
+    border: 2px solid #614806;
+    border-radius: 5px;
+}
+
+.section-contato h1 {
+    margin-top: 38px;
+    margin-left: 60px;
+}
+
+.display-flex {
+    display: flex;
+    margin: 32px 0px;
+}
+
+.informacoes {
+    background-color: #D9A619;
+    width: 1044px;
+    height: 567px;
+    margin-left: 60px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #616161;
+}
+
+.conteudo-info {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.conteudo-info h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.conteudo-info p, iframe {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.div-endereco {
+    display: flex;
+    width: 170px;
+    height: 40px;
+}
+
+.endereco {
+    width: 150px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.conteudo-info p i {
+    margin-right: 5px;
+}
+
+.formulario {
+    background-color: #FFEFC2;
+    width: 740px;
+    height: 563px;
+    margin-left: -744px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+iframe {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.conteudo-formulario {
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.input {
+    width: 300px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+}
+
+.linha-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin-left: 40px;
+}
+
+.linha-2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.input-email {
+    width: 640px;
+}
+
+.linha-3 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.input-descricao {
+    width: 640px;
+    height: 160px;
+}
+
+.input-btn {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #614806;
+    background-color: #EABF49;
+    border: 2px solid #B0891D;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.input-btn:hover {
+    color: #614806;
+    background-color: #B0891D;
+    border: 2px solid #614806;
+}
+/* ------------------------------------------------------------------------ PAG 6 --------------------------------------------------------------------------*/
+.botao{
+    margin-top: 20px;
+}
+
+/* ------------------------------------------------------------------ Media Quares ------------------------------------------------------------------------- */
+
+/* Smartphone Landscape */
+@media (max-width: 576px) {
+
+    /* Estilos Header */
+    .nav-header {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    /* Footer */
+    .flexFooter {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #social {
+        margin: 0;
+    }
+    
+    /* ------------------------------------------------------------------------ PAG 1 --------------------------------------------------------------------------*/
+    /* Section Slide */
+    .tamanho-slide {
+        width: 100%;
+        height: 20vh;
+    }
+
+    /* Section Sobre */
+    .section-sobre {
+        display: block;
+        height: 1120px;
+    }
+
+    .conteudo-sobre {
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+
+    .img-fora {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 60px;
+    }
+
+    /* Section Ifood */
+    .logo-ifood {
+        width: 200px;
+    }
+
+    /* Section Images */
+    .section-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .images-section {
+        width:  300px;
+        height: 200px;
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* ------------------------------------------------------------------------ PAG 2 -------------------------------------------------------------------------- */
+
+    .imagem-principal {
+        background-image: url(../img/img-introducao2.jpg);
+        height: 20vh;
+    }
+
+    /* ------------------------------------------------------------------------ PAG 3 -------------------------------------------------------------------------- */
+
+    /* Section Cardápio */
+.section-cardapio {
+    width: 360px;
+    height: 195px;
+}
+
+.conteudo-cardapio {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.conteudo-cardapio h1 {
+    font-size: 16px;
+}
+
+.conteudo-cardapio a {
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+ /* ------------------------------------------------------------------------ PAG 4 -------------------------------------------------------------------------- */
+
+.section-pedidos {
+    width: 360px;
+    height: 180px;
+    margin: 111.4px auto;
+}
+
+.container-pedidos {
+    margin: 20px 0;
+}
+
+.container-pedidos h1 {
+    font-size: 20px;
+}
+
+.telefones {
+    width: 150px;
+    height: 100px;
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.telefones span {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.telephone-pedidos {
+    margin-right: 5px;
+}
+
+.conteudo-devices img {
+    width: 120px;
+    height: 100px;
+    margin: 12px auto;
+}
+
+/* ------------------------------------------------------------------------ PAG 5 --------------------------------------------------------------------------*/
+.section-contato {
+    width: 360px;
+    height: 1125px;
+}
+
+.section-contato h1 {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.display-flex {
+    display: block;
+    margin-left: -32px;
+}
+
+.informacoes {
+    width: 300px;
+    height: 1000px;
+}
+
+.conteudo-info h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.conteudo-info p, iframe {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.div-endereco {
+    display: flex;
+    width: 170px;
+    height: 40px;
+}
+
+.endereco {
+    width: 150px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.conteudo-info p i {
+    margin-right: 5px;
+}
+
+.formulario {
+    width: 298px;
+    height: 563px;
+    margin-top: -605px;
+    margin-left: 60px;
+}
+
+iframe {
+    width: 220px;
+    height: 100%;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.input {
+    width: 260px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+}
+
+.linha-1 {
+    display: block;
+    width: 140px;
+    margin-left: 20px;
+}
+
+.linha-2 {
+    margin-left: 20px;
+}
+
+.input-email {
+    width: 260px;
+}
+
+.linha-3 {
+    margin-left: 20px;
+}
+
+.input-btn {
+    margin-left: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+    
+}
+
+@media (min-width: 576px) {
+    /* Estilos Header */
+    .nav-header {
+        margin-left: 51%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .nav-header {
+        margin-left: 58%;
+    }
+}
